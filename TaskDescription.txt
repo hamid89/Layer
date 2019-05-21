@@ -1,0 +1,14 @@
+Task DEscription:
+
+1 . The single file with an extension .xlsx may have more than one sheet.
+Each sheet must explain some business criteria with different number of variables whose values are present in cells of 
+spreadsheets. Since our goal is to extract selected information from the given cells in every sheet, I have used the pandas library for data loading in python language. The data is read by the user given input with its selected sheet name from .xlsx file.
+The next task is to find out which variable in a given sheet, user is interested. It could be all the variables or few so everything is considered
+while implementing this task. The function has been provided to find out which variables user is interested in.
+After that we need to find out which cells of the given variables, user is interested. It could be either a single cell or a range of cells for single selected variable present in a spreadsheet. For this, I have implemented user instructed function that ask user whether it is needed to select a single cell or some of range of cells. Based on this selection, the data is extracted and finally saved to the .xlsx as a single sheet whose name will be provided by the user. 
+Now if the user needs to make selections from other sheet, if it is present in .xlsx file the program requires the user to run the program again give the name of sheet from which selections can be made and this sheet can be stored in a same output file. 
+The function for recieving recipients email addresses are also been implemented which may have further usage in order to send emails with the selected sheets attached. 
+This requires sender and reciever email addresses and offcourse some connectivity packages avalable in python.
+
+
+
